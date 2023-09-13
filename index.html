@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Protiflo</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><p >K</p>haled  <p> A</p>laya</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a> </li>
+                <li><a href="#experience">Experience</a> </li>
+                <li><a href="#projects">Projects</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="humburger-nav">
+        <div class="logo"><p >K</p>haled  <p> A</p>laya</div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">about</a> </li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a> </li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a> </li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a> </li>
+            </div>
+        </div>
+    </nav>
+    <section id="prfoile">
+        <div class="section__pic-container">
+            <div class="shape-image"></div>
+            <img class="profile-image" src="./assets/profile-pic.jpg" alt="Khaled Alaya profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm</p>
+            <h1 class="title">Khaled Alaya</h1>
+            <p class="section__text__p2">
+                Front-End Developer
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assets/Khaled CV.pdf')"
+                >
+                Download CV
+                </button>
+                <button class="btn btn-color-1"
+                onclick="location.href='#contact'"
+                >
+                Contact info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin Profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/khaled-alaya-52bb97290/'">
+                <img src="./assets/github.png" alt="My github Profile"
+                class="icon"
+                onclick="location.href='https://github.com/k-alaya9'">
+                
+                <img src="./assets/facebook.png" alt="My facebook Profile"
+                class="icon facebook-icon"
+                onclick="location.href='https://www.facebook.com/profile.php?id=100024492073595'">
+                
+                <img src="./assets/instagram.png" alt="My instagram Profile"
+                class="icon"
+                onclick="location.href='https://www.instagram.com/k.alaya9/'">
+                
+                <img src="./assets/twitter.png" alt="My twitter Profile"
+                class="icon"
+                onclick="location.href='https://twitter.com/k_alaya9'">
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/pic.JPG" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="detailes-container">
+                        <img src="./assets/experience.png" alt="Experience icon"
+                        class="icon"/>
+                        <h3>Experience</h3>
+                        <p>1+ Year <br>Front-End Development</p>
+                    </div>
+                    <div class="detailes-container">
+                        <img src="./assets/education.png" alt="education icon"
+                        class="icon"/>
+                        <h3>Education</h3>
+                        <p>Bechelor in ITE/4TH<br>High School Diploma</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        "Hello! I'm Khaled Alaya, a dedicated Flutter developer and an ITE student currently pursuing my studies in college. While I have a strong background in Flutter development, I'm also excited to explore the world of web development with HTML, CSS, and JavaScript.
+
+As an ITE student, I am constantly expanding my knowledge and skills in various aspects of information technology. While I am relatively new to HTML, CSS, and JavaScript, I am eager to learn and explore the fundamentals of web development.
+
+I believe that my proficiency in Flutter development provides a solid foundation for me to dive into web development. With a strong understanding of user experience and interface design principles, I am excited to apply these skills to create engaging and responsive web applications.
+
+Although I am still in the early stages of my HTML, CSS, and JavaScript journey, I am committed to honing my skills and staying up to date with the latest industry trends and best practices. I am eager to leverage my existing knowledge and combine it with my growing expertise in web development to create innovative and user-friendly digital experiences.
+
+As a student, I am continuously seeking opportunities to learn and grow. I actively participate in coding competitions, engage in online communities, and collaborate with fellow developers to expand my knowledge and gain practical experience. I believe in the power of teamwork and strive to contribute to collaborative projects that solve real-world problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow"
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="detailes-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>bootstrap</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>THREEjs</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detailes-container">
+                    <h2 class="experience-sub-title">Flutter Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Flutter</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>GET-X</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Firebase</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Sqllight</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow"
+        onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <P class="section__text__p1">Browse My Recent</P>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="detailes-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="project-1" class="prject-img">
+                    </div>
+                    <h2 class="experience-sub-title prject-title">Parachute Jump</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/k-alaya9/parachute-jump'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="detailes-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project--2.png" alt="project-2" class="prject-img">
+                    </div>
+                    <h2 class="experience-sub-title prject-title">revista</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/k-alaya9/front-end-revista'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="detailes-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="project-3" class="prject-img">
+                    </div>
+                    <h2 class="experience-sub-title prject-title">Chat App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/k-alaya9/chat-app'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow"
+        onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:khaledalaya549@gmail.com">khaledalaya549@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/khaled-alaya-52bb97290/">linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-conatiner">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#experience">Experience</a> </li>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <p>CopyRigth &#169; 2023 Khaled Alaya. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
