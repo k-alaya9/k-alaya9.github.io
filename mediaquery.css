@@ -19,6 +19,12 @@
     #humburger-nav {
       display: flex;
     }
+    .shape-image{
+      display: none;
+  }
+    .profile-image{
+      position: static;
+  }
     #experience,
     .experience-details-container {
       margin-top: 2rem;
